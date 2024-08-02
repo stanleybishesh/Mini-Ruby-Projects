@@ -6,13 +6,13 @@ module ViewAttendance
         selected_class = @data["classes"][class_index]
 
         if @data["attendance_records"][selected_class]
-        puts "\nAttendance for #{selected_class}:"
-        @data["attendance_records"][selected_class].each do |student, present|
-            status = present ? "Present" : "Absent"
-            puts "#{student}: #{status}"
-        end
+            puts "\nAttendance for #{selected_class}:"
+            @data["attendance_records"][selected_class].each do |student, present|
+                status = present ? "Present" : "Absent"
+                puts "#{student}: #{status}"
+            end
         else
-        puts "\nNo attendance records found for #{selected_class}."
+            puts "\nNo attendance records found for #{selected_class}."
         end
     end
 end

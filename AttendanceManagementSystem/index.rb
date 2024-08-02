@@ -19,23 +19,23 @@ loop do
 
     case choice
     when 1
-    system.add_student
+        system.add_student
     when 2
-    system.list_students
+        system.list_students
     when 3
-    system.add_class
+        system.add_class
     when 4
-    system.list_classes
+        system.list_classes
     when 5
-    system.mark_attendance
+        system.mark_attendance
     when 6
-    system.view_attendance
+        system.view_attendance
     when 7
-    system.clear_all_records
+        system.clear_all_records
     when 8
-    puts "Exiting..."
-    break
+        puts "Exiting..."
+        break
     else
-    puts "Invalid choice. Please try again."
+        puts "Invalid choice. Please try again."
     end
 end

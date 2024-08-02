@@ -9,9 +9,9 @@ module MarkAttendance
         puts "\nMarking attendance for #{selected_class}"
         list_students
         @data["students"].each do |student|
-        print "\nIs #{student} present? (y/n): "
-        response = gets.chomp.downcase
-        @data["attendance_records"][selected_class][student] = response == 'y'
+            print "\nIs #{student} present? (y/n): "
+            response = gets.chomp.downcase
+            @data["attendance_records"][selected_class][student] = response == 'y'
         end
         save_data
     end
