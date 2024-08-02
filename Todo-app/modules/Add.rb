@@ -13,6 +13,7 @@ module Add
         for i in (0..array.length-1)
             if array[i].include?(task)
                 repeated_text = true
+                break
             else
                 repeated_text = false
                 i+=1
