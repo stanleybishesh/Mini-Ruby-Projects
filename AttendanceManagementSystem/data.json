@@ -1,0 +1,19 @@
+{
+  "students": [
+    "Bishesh",
+    "AYush",
+    "Sushil"
+  ],
+  "classes": [
+    "10",
+    "11",
+    "12"
+  ],
+  "attendance_records": {
+    "": {
+      "Bishesh": true,
+      "AYush": true,
+      "Sushil": true
+    }
+  }
+}
